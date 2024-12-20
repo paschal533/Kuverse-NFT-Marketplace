@@ -20,15 +20,15 @@ Kuverse is an NFT marketplace where users can mint their pictures as NFTs, list 
 
 # 🚀 Quick Start
 
-📄 Clone or fork NFT-Marketplace-Kuverse:
+📄 Clone or fork Kuverse-NFT-Marketplace:
 
 ```
-https://github.com/paschal533/NFT-Marketplace-Kuverse.git
+https://github.com/paschal533/Kuverse-NFT-Marketplace.git
 ```
 💿 Install all dependencies:
  
 ```
-$ cd NFT-Marketplace-Kuverse
+$ cd Kuverse-NFT-Marketplace
 $ npm install 
 ```
 
