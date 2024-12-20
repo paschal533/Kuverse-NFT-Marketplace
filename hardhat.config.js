@@ -1,9 +1,7 @@
 const fs = require('fs');
 require('@nomiclabs/hardhat-waffle');
 
-const privatekey = ''; // fs.readFileSync('.secret').toString().trim();
-
-const projectID = '591a46e0426f4722b635a7653c02cbbd';
+const privatekey = '';
 
 module.exports = {
   networks: {
@@ -11,7 +9,7 @@ module.exports = {
       chainId: 1337,
     },
     rinkeby: {
-      url: `https://rinkeby.infura.io/v3/${projectID}`, //Infura url with projectId
+      url: `https://rpc.chiadochain.net`,
       accounts: [privatekey] // add the account that will deploy the contract (private key)
     },
   },
