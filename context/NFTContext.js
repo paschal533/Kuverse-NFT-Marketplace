@@ -18,10 +18,11 @@ export const NFTProvider = ({ children }) => {
     try {
       setIsLoadingNFT(false);
 
-      const provider = new ethers.providers.JsonRpcProvider('https://rinkeby.infura.io/v3/591a46e0426f4722b635a7653c02cbbd');
+      const provider = new ethers.providers.JsonRpcProvider('https://rpc.chiadochain.net');
       const contract = fetchContract(provider);
 
       const data = await contract.fetchMarketItems();
+      console.log(data);
 
       const items = await Promise.all(data.map(async ({ tokenId, seller, owner, price: unformattedPrice }) => {
         const tokenURI = await contract.tokenURI(tokenId);
@@ -91,7 +92,7 @@ export const NFTProvider = ({ children }) => {
       await transaction.wait();
       setIsLoadingNFT(false);
     } catch (error) {
-      alert("You do not have sufficient money on your wallet to purchase this NFT. ");
+      alert('You do not have sufficient money on your wallet to purchase this NFT. ');
     }
   };
 

@@ -2,7 +2,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['ipfs.infura.io'],
+    domains: ['nft-kastle.infura-ipfs.io', 'oaidalleapiprodscus.blob.core.windows.net'],
   },
   eslint: {
     // Warning: This allows production builds to successfully complete even if

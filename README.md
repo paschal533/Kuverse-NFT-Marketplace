@@ -29,7 +29,7 @@ https://github.com/paschal533/Kuverse-NFT-Marketplace.git
  
 ```
 $ cd Kuverse-NFT-Marketplace
-$ npm install 
+$ npm install -f
 ```
 
 # 🔐 Add the required environment variables.
@@ -57,7 +57,7 @@ npx hardhat test
 ```
 
 
-- Note :- This app was deploy to Rinkeby testnet, so you need to connect your wallet to Rinkeby before you can Interact with the app.
+- Note :- This app was deploy to Chiadochain testnet, so you need to connect your wallet to Chiadochain before you can Interact with the app.
 
 # 🎗 Overview
 
