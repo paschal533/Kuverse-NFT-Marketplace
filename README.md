@@ -56,8 +56,13 @@ npm run dev
 npx hardhat test
 ```
 
+- Note :- This app was deploy to Base Sepolia testnet, so you need to connect your wallet to Base Sepolia before you can Interact with the app.
 
-- Note :- This app was deploy to Chiadochain testnet, so you need to connect your wallet to Chiadochain before you can Interact with the app.
+Base Sepolia Explorer
+
+```
+https://sepolia.basescan.org/address/0x1D893fcd6Cd87A3348942cD3DC5Cf1A945C60068
+```
 
 # 🎗 Overview
 

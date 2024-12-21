@@ -18,7 +18,7 @@ export const NFTProvider = ({ children }) => {
     try {
       setIsLoadingNFT(false);
 
-      const provider = new ethers.providers.JsonRpcProvider('https://rpc.chiadochain.net');
+      const provider = new ethers.providers.JsonRpcProvider('https://sepolia.base.org');
       const contract = fetchContract(provider);
 
       const data = await contract.fetchMarketItems();

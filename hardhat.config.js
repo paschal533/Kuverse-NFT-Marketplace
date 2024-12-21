@@ -1,19 +1,18 @@
-const fs = require('fs');
+// eslint-disable-next-line import/no-extraneous-dependencies
 require('@nomiclabs/hardhat-waffle');
 
 const privatekey = ''; // fs.readFileSync('.secret').toString().trim();
-
-const projectID = '591a46e0426f4722b635a7653c02cbbd';
 
 module.exports = {
   networks: {
     hardhat: {
       chainId: 1337,
     },
-    rinkeby: {
-      url: `https://rinkeby.infura.io/v3/${projectID}`, //Infura url with projectId
-      accounts: [privatekey] // add the account that will deploy the contract (private key)
+    sepolia: {
+      url: 'https://sepolia.base.org',
+      accounts: [privatekey],
     },
+    solidity: '0.8.4',
   },
-  solidity: '0.8.4',
 };
+
