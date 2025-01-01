@@ -37,7 +37,7 @@ $ npm install -f
 You can find all the required environment variables for the frontend in the `.env.local.Example` file
 
 ```
-//NEXT_PUBLIC_INFURA_IPFS_PROJECT_SECRET = // Infura IPFS Project secret
+NEXT_PUBLIC_INFURA_IPFS_PROJECT_SECRET = // Infura IPFS Project secret
 NEXT_PUBLIC_INFURA_IPFS_PROJECT_ID =  // Infura IPFS Project ID
 
 ```
