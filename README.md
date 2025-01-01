@@ -38,7 +38,7 @@ You can find all the required environment variables for the frontend in the `.en
 
 ```
 NEXT_PUBLIC_INFURA_IPFS_PROJECT_SECRET = // Infura IPFS Project secret
-//NEXT_PUBLIC_INFURA_IPFS_PROJECT_ID =  // Infura IPFS Project ID
+NEXT_PUBLIC_INFURA_IPFS_PROJECT_ID =  // Infura IPFS Project ID
 
 ```
 
