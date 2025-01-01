@@ -42,7 +42,7 @@ NEXT_PUBLIC_INFURA_IPFS_PROJECT_ID =  // Infura IPFS Project ID
 
 ```
 
-After adding the environment variables, Rename the file from `.env.local.Example` to `.env.local`
+//After adding the environment variables, Rename the file from `.env.local.Example` to `.env.local`
 
 # 🚴‍♂️ Run your App:
 
