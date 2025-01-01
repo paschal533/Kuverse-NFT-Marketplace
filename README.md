@@ -34,7 +34,7 @@ $ npm install -f
 
 # 🔐 Add the required environment variables.
 
-You can find all the required environment variables for the frontend in the `.env.local.Example` file
+//You can find all the required environment variables for the frontend in the `.env.local.Example` file
 
 ```
 NEXT_PUBLIC_INFURA_IPFS_PROJECT_SECRET = // Infura IPFS Project secret
