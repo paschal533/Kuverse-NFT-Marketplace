@@ -66,7 +66,7 @@ const CreateItem = () => {
 
   const createMarket = async () => {
     const { name, description, price } = formInput;
-    if (!name || !description || !price || !fileUrl) return;
+    //if (!name || !description || !price || !fileUrl) return;
     /* first, upload to IPFS */
     const data = JSON.stringify({ name, description, image: fileUrl });
     try {
