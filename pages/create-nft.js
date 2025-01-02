@@ -70,7 +70,7 @@ const CreateItem = () => {
     /* first, upload to IPFS */
     const data = JSON.stringify({ name, description, image: fileUrl });
     try {
-      const added = await client.add(data);
+      //const added = await client.add(data);
       const url = `https://nft-kastle.infura-ipfs.io/ipfs/${added.path}`;
       /* after file is uploaded to IPFS, pass the URL to save it on Polygon */
       await createSale(url, formInput.price);
