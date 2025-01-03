@@ -73,7 +73,7 @@ const CreateItem = () => {
       const added = await client.add(data);
       const url = `https://nft-kastle.infura-ipfs.io/ipfs/${added.path}`;
       /* after file is uploaded to IPFS, pass the URL to save it on Polygon */
-      //await createSale(url, formInput.price);
+      await createSale(url, formInput.price);
       router.push('/');
     } catch (error) {
       console.log('Error uploading file: ', error);
