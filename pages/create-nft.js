@@ -68,7 +68,7 @@ const CreateItem = () => {
     const { name, description, price } = formInput;
     if (!name || !description || !price || !fileUrl) return;
     /* first, upload to IPFS */
-    //const data = JSON.stringify({ name, description, image: fileUrl });
+    const data = JSON.stringify({ name, description, image: fileUrl });
     try {
       const added = await client.add(data);
       const url = `https://nft-kastle.infura-ipfs.io/ipfs/${added.path}`;
