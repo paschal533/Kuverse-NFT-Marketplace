@@ -62,7 +62,7 @@ const CreateItem = () => {
   );
 
   const [formInput, updateFormInput] = useState({ price: '', name: '', description: '' });
-  const router = useRouter();
+  //const router = useRouter();
 
   const createMarket = async () => {
     const { name, description, price } = formInput;
